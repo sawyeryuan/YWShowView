@@ -23,8 +23,9 @@ Pod::Spec.new do |s|
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC push subview from bottom
+  #   * Finally, do n't worry about the indent, CocoaPods strips it!
+  s.description  = <<-DESC 
+                      push subview from bottom
                    DESC
 
   s.homepage     = "https://github.com/YWSawyer/YWShowView"
@@ -79,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/YWSawyer/YWShowView.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/YWSawyer/YWShowView.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "YWShowView/YWShowView", "*.{h,m}"
+  s.source_files  = "YWShowView", "*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
